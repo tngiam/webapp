@@ -12,7 +12,7 @@ namespace webapp.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View() //SEMI COLON REMOVED
         }
 
         public IActionResult Privacy()
